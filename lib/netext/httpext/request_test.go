@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/mccutchen/go-httpbin/httpbin"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/metrics"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
 	"golang.org/x/time/rate"
 	"gopkg.in/guregu/null.v3"
 )

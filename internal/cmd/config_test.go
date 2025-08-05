@@ -12,14 +12,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/executor"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/lib/types"
+	"github.com/shiqinzhi/k6/cmd/state"
+	"github.com/shiqinzhi/k6/errext"
+	"github.com/shiqinzhi/k6/errext/exitcodes"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/lib/executor"
+	"github.com/shiqinzhi/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/lib/types"
 )
 
 type testCmdData struct {

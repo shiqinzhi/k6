@@ -6,18 +6,18 @@ import (
 	"strings"
 	"testing"
 
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/metrics"
 
-	"go.k6.io/k6/lib"
+	"github.com/shiqinzhi/k6/lib"
 
-	"go.k6.io/k6/internal/js/modules/k6/experimental/fs"
-	"go.k6.io/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/experimental/fs"
+	"github.com/shiqinzhi/k6/lib/fsext"
 
-	"go.k6.io/k6/internal/js/compiler"
+	"github.com/shiqinzhi/k6/internal/js/compiler"
 
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/js/modulestest"
 )
 
 // testFilePath holds the path to the test CSV file.

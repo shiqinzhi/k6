@@ -4,8 +4,8 @@ package cmd
 import (
 	"context"
 
-	"go.k6.io/k6/cmd/state"
-	internalcmd "go.k6.io/k6/internal/cmd"
+	"github.com/shiqinzhi/k6/cmd/state"
+	internalcmd "github.com/shiqinzhi/k6/internal/cmd"
 )
 
 // Execute executes the k6 command

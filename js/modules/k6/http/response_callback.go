@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/grafana/sobek"
-	"go.k6.io/k6/js/common"
+	"github.com/shiqinzhi/k6/js/common"
 )
 
 //nolint:gochecknoglobals

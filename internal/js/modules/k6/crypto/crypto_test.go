@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/js/modulestest"
 )
 
 type MockReader struct{}

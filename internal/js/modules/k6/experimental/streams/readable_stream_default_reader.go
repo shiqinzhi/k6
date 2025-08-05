@@ -3,7 +3,7 @@ package streams
 import (
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/js/common"
+	"github.com/shiqinzhi/k6/js/common"
 )
 
 // ReadableStreamDefaultReader represents a default reader designed to be vended by a [ReadableStream].

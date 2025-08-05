@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common"
 
-	k6lib "go.k6.io/k6/lib"
-	k6types "go.k6.io/k6/lib/types"
+	k6lib "github.com/shiqinzhi/k6/lib"
+	k6types "github.com/shiqinzhi/k6/lib/types"
 )
 
 func TestURLSkipRequest(t *testing.T) {

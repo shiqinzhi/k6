@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strconv"
 
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/execution"
-	"go.k6.io/k6/internal/usage"
+	"github.com/shiqinzhi/k6/internal/build"
+	"github.com/shiqinzhi/k6/internal/execution"
+	"github.com/shiqinzhi/k6/internal/usage"
 )
 
 func createReport(u *usage.Usage, execScheduler *execution.Scheduler) map[string]any {

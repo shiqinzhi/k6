@@ -2,7 +2,7 @@
 package chromium
 
 import (
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common"
 )
 
 // Browser is the public interface of a CDP browser.

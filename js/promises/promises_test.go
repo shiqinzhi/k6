@@ -3,9 +3,9 @@ package promises
 import (
 	"testing"
 
+	"github.com/shiqinzhi/k6/js/modulestest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/js/modulestest"
 )
 
 func TestNew(t *testing.T) {

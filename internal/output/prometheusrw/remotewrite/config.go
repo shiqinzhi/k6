@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"go.k6.io/k6/internal/output/prometheusrw/sigv4"
+	"github.com/shiqinzhi/k6/internal/output/prometheusrw/sigv4"
 
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/output/prometheusrw/remote"
-	"go.k6.io/k6/lib/types"
+	"github.com/shiqinzhi/k6/internal/output/prometheusrw/remote"
+	"github.com/shiqinzhi/k6/lib/types"
 )
 
 const (

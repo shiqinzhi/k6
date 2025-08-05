@@ -16,13 +16,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/internal/loader"
-	"go.k6.io/k6/internal/usage"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/internal/loader"
+	"github.com/shiqinzhi/k6/internal/usage"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 func TestConsoleContext(t *testing.T) {

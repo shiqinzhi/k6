@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"go.k6.io/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/lib/fsext"
 )
 
 // cache is a cache of opened files, designed to minimize redundant file reads, and

@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/js/modulestest"
-	"go.k6.io/k6/lib/netext/httpext"
+	"github.com/shiqinzhi/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/lib/netext/httpext"
 )
 
 func getTestModuleInstance(t testing.TB) (*modulestest.Runtime, *ModuleInstance) {

@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/shiqinzhi/k6/internal/cmd/tests"
+	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/internal/cmd/tests"
-	"go.k6.io/k6/lib/fsext"
 )
 
 func TestNewScriptCmd(t *testing.T) {

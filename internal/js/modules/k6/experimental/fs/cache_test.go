@@ -3,8 +3,8 @@ package fs
 import (
 	"testing"
 
+	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/stretchr/testify/assert"
-	"go.k6.io/k6/lib/fsext"
 )
 
 func TestFileCacheOpen(t *testing.T) {

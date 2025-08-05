@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
-	"go.k6.io/k6/internal/js/modules/k6/browser/env"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
 )
 
 func TestFramePress(t *testing.T) {
@@ -82,7 +82,7 @@ func TestFrameNoPanicWithEmbeddedIFrame(t *testing.T) {
 	// environments since the bug that the test fixes
 	// only surfaces when in headfull mode.
 	// Remove this skip once we have headfull mode in
-	// CI: https://go.k6.io/k6/js/modules/k6/browser/issues/678
+	// CI: https://github.com/shiqinzhi/k6/js/modules/k6/browser/issues/678
 	if env.IsBrowserHeadless() {
 		t.Skip("skipped when in headless mode")
 	}
@@ -108,7 +108,7 @@ func TestFrameNoPanicWithEmbeddedIFrame(t *testing.T) {
 	assert.EqualValues(t, "Done!", result)
 }
 
-// Without the fix in https://go.k6.io/k6/js/modules/k6/browser/pull/942
+// Without the fix in https://github.com/shiqinzhi/k6/js/modules/k6/browser/pull/942
 // this test would hang on the "sign in" link click.
 func TestFrameNoPanicNavigateAndClickOnPageWithIFrames(t *testing.T) {
 	t.Parallel()
@@ -117,7 +117,7 @@ func TestFrameNoPanicNavigateAndClickOnPageWithIFrames(t *testing.T) {
 	// environments since the bug that the test fixes
 	// only surfaces when in headfull mode.
 	// Remove this skip once we have headfull mode in
-	// CI: https://go.k6.io/k6/js/modules/k6/browser/issues/678
+	// CI: https://github.com/shiqinzhi/k6/js/modules/k6/browser/issues/678
 	if env.IsBrowserHeadless() {
 		t.Skip("skipped when in headless mode")
 	}

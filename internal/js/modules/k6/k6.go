@@ -9,10 +9,10 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/js/modules"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 var (

@@ -8,11 +8,11 @@ import (
 	"time"
 
 	prompb "buf.build/gen/go/prometheus/prometheus/protocolbuffers/go"
+	"github.com/shiqinzhi/k6/lib/types"
+	"github.com/shiqinzhi/k6/metrics"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/lib/types"
-	"go.k6.io/k6/metrics"
 	"gopkg.in/guregu/null.v3"
 )
 

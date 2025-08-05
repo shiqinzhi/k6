@@ -9,8 +9,8 @@ import (
 	"github.com/grafana/sobek"
 	gohtml "golang.org/x/net/html"
 
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/js/modules"
 )
 
 // RootModule is the global module object type. It is instantiated once per test

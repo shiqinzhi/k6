@@ -7,8 +7,8 @@ import (
 
 	"github.com/grafana/sobek"
 	"github.com/mstoykov/k6-taskqueue-lib/taskqueue"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/js/modules"
 	"google.golang.org/grpc/codes"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )

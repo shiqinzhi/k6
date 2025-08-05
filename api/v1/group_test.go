@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.k6.io/k6/lib"
+	"github.com/shiqinzhi/k6/lib"
 )
 
 func TestNewCheck(t *testing.T) {

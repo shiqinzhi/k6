@@ -2,7 +2,7 @@
 package timers
 
 import (
-	"go.k6.io/k6/js/modules"
+	"github.com/shiqinzhi/k6/js/modules"
 )
 
 // RootModule is the global module instance that will create module

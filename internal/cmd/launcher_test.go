@@ -11,18 +11,18 @@ import (
 	"testing"
 
 	"github.com/grafana/k6deps"
+	"github.com/shiqinzhi/k6/cmd/state"
+	"github.com/shiqinzhi/k6/ext"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/ext"
 
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/cmd/tests"
-	"go.k6.io/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/errext"
+	"github.com/shiqinzhi/k6/internal/build"
+	"github.com/shiqinzhi/k6/internal/cmd/tests"
+	"github.com/shiqinzhi/k6/lib/fsext"
 )
 
 // mockExecutor mocks commandExecutor

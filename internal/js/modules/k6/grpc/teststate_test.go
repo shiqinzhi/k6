@@ -10,17 +10,17 @@ import (
 	"testing"
 
 	"github.com/grafana/sobek"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/internal/lib/testutils/httpmultibin"
+	"github.com/shiqinzhi/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/metrics"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/internal/lib/testutils/httpmultibin"
-	"go.k6.io/k6/js/modulestest"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/metrics"
 	"gopkg.in/guregu/null.v3"
 
-	xk6grpc "go.k6.io/k6/internal/js/modules/k6/grpc"
+	xk6grpc "github.com/shiqinzhi/k6/internal/js/modules/k6/grpc"
 )
 
 const isWindows = runtime.GOOS == "windows"

@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/shiqinzhi/k6/internal/build"
+	"github.com/shiqinzhi/k6/internal/cmd/tests"
 	"github.com/stretchr/testify/assert"
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/cmd/tests"
 )
 
 func TestVersionFlag(t *testing.T) {

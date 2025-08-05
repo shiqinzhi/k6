@@ -10,7 +10,7 @@ import (
 	logtest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/stretchr/testify/assert"
 
-	"go.k6.io/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
 )
 
 func testHTTPHandler(rw http.ResponseWriter, _ *http.Request) {

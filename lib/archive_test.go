@@ -10,15 +10,15 @@ import (
 	"runtime"
 	"testing"
 
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/internal/build"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 func TestNormalizeAndAnonymizePath(t *testing.T) {

@@ -2,7 +2,7 @@ package streams
 
 import (
 	"github.com/grafana/sobek"
-	"go.k6.io/k6/js/common"
+	"github.com/shiqinzhi/k6/js/common"
 	"gopkg.in/guregu/null.v3"
 )
 

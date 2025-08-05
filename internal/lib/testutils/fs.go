@@ -3,8 +3,8 @@ package testutils
 import (
 	"testing"
 
+	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/lib/fsext"
 )
 
 // MakeMemMapFs creates a new in-memory filesystem with the given files.

@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modulestest"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 type addTestValue struct {

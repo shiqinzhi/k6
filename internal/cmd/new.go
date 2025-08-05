@@ -5,11 +5,11 @@ import (
 	"io"
 	"strings"
 
+	"github.com/shiqinzhi/k6/cmd/state"
+	"github.com/shiqinzhi/k6/internal/cmd/templates"
+	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/internal/cmd/templates"
-	"go.k6.io/k6/lib/fsext"
 )
 
 const defaultNewScriptName = "script.js"

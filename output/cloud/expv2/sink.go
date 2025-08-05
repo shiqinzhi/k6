@@ -3,8 +3,8 @@ package expv2
 import (
 	"fmt"
 
-	"go.k6.io/k6/internal/ds/histogram"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/ds/histogram"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 // TODO:A potential optimization

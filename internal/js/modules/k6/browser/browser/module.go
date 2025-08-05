@@ -13,11 +13,11 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
-	"go.k6.io/k6/internal/js/modules/k6/browser/env"
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
 
-	k6modules "go.k6.io/k6/js/modules"
+	k6modules "github.com/shiqinzhi/k6/js/modules"
 )
 
 type (

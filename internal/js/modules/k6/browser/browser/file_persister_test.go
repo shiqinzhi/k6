@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/env"
-	"go.k6.io/k6/internal/js/modules/k6/browser/storage"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/storage"
 )
 
 func Test_newScreenshotPersister(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/lib/types"
+	"github.com/shiqinzhi/k6/lib/types"
 )
 
 // GroupSeparator for group IDs.

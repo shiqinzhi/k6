@@ -7,9 +7,9 @@ import (
 
 	prompb "buf.build/gen/go/prometheus/prometheus/protocolbuffers/go"
 	dto "github.com/prometheus/client_model/go"
+	"github.com/shiqinzhi/k6/metrics"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/metrics"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

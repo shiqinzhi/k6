@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/env"
-	"go.k6.io/k6/internal/js/modules/k6/browser/log"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/log"
 
-	"go.k6.io/k6/lib/types"
+	"github.com/shiqinzhi/k6/lib/types"
 )
 
 // Script variables.
@@ -26,7 +26,7 @@ type BrowserOptions struct {
 	IgnoreDefaultArgs []string
 	LogCategoryFilter string
 	// TODO: Do not expose slowMo option by now.
-	// See https://go.k6.io/k6/js/modules/k6/browser/issues/857.
+	// See https://github.com/shiqinzhi/k6/js/modules/k6/browser/issues/857.
 	SlowMo  time.Duration
 	Timeout time.Duration
 

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/mstoykov/envconfig"
-	"go.k6.io/k6/lib/types"
+	"github.com/shiqinzhi/k6/lib/types"
 	"gopkg.in/guregu/null.v3"
 )
 

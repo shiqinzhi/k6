@@ -2,7 +2,7 @@
 package main
 
 import (
-	"go.k6.io/k6/cmd"
+	"github.com/shiqinzhi/k6/cmd"
 )
 
 func main() {

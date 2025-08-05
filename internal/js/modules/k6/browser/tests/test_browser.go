@@ -13,15 +13,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/browser"
-	"go.k6.io/k6/internal/js/modules/k6/browser/chromium"
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
-	"go.k6.io/k6/internal/js/modules/k6/browser/env"
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext/k6test"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/browser"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/chromium"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext/k6test"
 
-	k6httpmultibin "go.k6.io/k6/internal/lib/testutils/httpmultibin"
-	k6metrics "go.k6.io/k6/metrics"
+	k6httpmultibin "github.com/shiqinzhi/k6/internal/lib/testutils/httpmultibin"
+	k6metrics "github.com/shiqinzhi/k6/metrics"
 )
 
 const testBrowserStaticDir = "static"

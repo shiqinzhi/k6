@@ -7,9 +7,9 @@ import (
 	"github.com/mstoykov/atlas"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"go.k6.io/k6/internal/ds/histogram"
-	"go.k6.io/k6/internal/output/cloud/expv2/pbcloud"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/ds/histogram"
+	"github.com/shiqinzhi/k6/internal/output/cloud/expv2/pbcloud"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 // TODO: unit test

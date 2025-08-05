@@ -16,11 +16,11 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/grafana/sobek"
 	"github.com/mstoykov/k6-taskqueue-lib/taskqueue"
-	"go.k6.io/k6/internal/js/modules/k6/experimental/websockets/events"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/experimental/websockets/events"
 
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modules"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/js/modules"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 // RootModule is the root module for the websockets API

@@ -14,12 +14,12 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/grafana/k6deps"
 	"github.com/grafana/k6provider"
+	"github.com/shiqinzhi/k6/cmd/state"
+	"github.com/shiqinzhi/k6/ext"
+	"github.com/shiqinzhi/k6/internal/build"
+	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"go.k6.io/k6/cmd/state"
-	"go.k6.io/k6/ext"
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/lib/fsext"
 )
 
 const (

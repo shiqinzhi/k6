@@ -11,7 +11,7 @@ import (
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/cdproto/input"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/keyboardlayout"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/keyboardlayout"
 )
 
 const (

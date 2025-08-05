@@ -7,9 +7,9 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common"
 
-	k6common "go.k6.io/k6/js/common"
+	k6common "github.com/shiqinzhi/k6/js/common"
 )
 
 // mapping is a type for mapping our module API to sobek.

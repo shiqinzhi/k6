@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"go.k6.io/k6/cmd/state"
+	"github.com/shiqinzhi/k6/cmd/state"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
@@ -34,8 +34,8 @@ func getCmdCloudUpload(cloudCmd *cmdCloud) *cobra.Command {
 		Short: "Upload the test script to the Grafana Cloud k6",
 		Long: `Upload the test script and its resources to the Grafana Cloud k6.
 
-This will upload the test script and its resources to the Grafana Cloud k6 service. 
-Using this command requires to be authenticated against the Grafana Cloud k6. 
+This will upload the test script and its resources to the Grafana Cloud k6 service.
+Using this command requires to be authenticated against the Grafana Cloud k6.
 Use the "k6 cloud login" command to authenticate.
 `,
 		Example: exampleText,

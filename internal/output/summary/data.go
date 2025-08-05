@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.k6.io/k6/internal/lib/summary"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/lib/summary"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 type dataModel struct {

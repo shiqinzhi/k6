@@ -3,14 +3,14 @@ package cmd
 import (
 	"fmt"
 
-	"go.k6.io/k6/errext/exitcodes"
+	"github.com/shiqinzhi/k6/errext/exitcodes"
 
-	"go.k6.io/k6/errext"
+	"github.com/shiqinzhi/k6/errext"
 
+	"github.com/shiqinzhi/k6/internal/execution"
+	"github.com/shiqinzhi/k6/internal/execution/local"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
-	"go.k6.io/k6/internal/execution"
-	"go.k6.io/k6/internal/execution/local"
 )
 
 const cloudRunCommandName string = "run"

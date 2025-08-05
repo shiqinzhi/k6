@@ -9,7 +9,7 @@ import (
 	"github.com/chromedp/cdproto/page"
 	"github.com/grafana/sobek"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
 )
 
 type PageEmulateMediaOptions struct {

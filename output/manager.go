@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/shiqinzhi/k6/metrics"
 	"github.com/sirupsen/logrus"
-	"go.k6.io/k6/metrics"
 )
 
 // TODO: completely get rid of this, see https://github.com/grafana/k6/issues/2430

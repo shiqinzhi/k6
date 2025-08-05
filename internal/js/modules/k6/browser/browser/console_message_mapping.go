@@ -1,7 +1,7 @@
 package browser
 
 import (
-	"go.k6.io/k6/internal/js/modules/k6/browser/common"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common"
 )
 
 // mapConsoleMessage to the JS module.

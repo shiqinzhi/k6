@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"testing"
 
-	"go.k6.io/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/lib/fsext"
 )
 
 // Untar a simple test helper that untars a `fileName` file to a `destination` path

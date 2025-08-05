@@ -17,8 +17,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 // HTTPRequestCookie is a representation of a cookie used for request objects

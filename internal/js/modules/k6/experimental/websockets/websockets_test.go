@@ -16,12 +16,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/internal/lib/testutils/httpmultibin"
-	httpModule "go.k6.io/k6/js/modules/k6/http"
-	"go.k6.io/k6/js/modulestest"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/internal/lib/testutils/httpmultibin"
+	httpModule "github.com/shiqinzhi/k6/js/modules/k6/http"
+	"github.com/shiqinzhi/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 // copied from k6/ws
@@ -1050,7 +1050,7 @@ func TestCookiesDefaultJar(t *testing.T) {
 
 	ts.runtime.VU.StateField.CookieJar, _ = cookiejar.New(nil)
 	_, err = ts.runtime.RunOnEventLoop(sr(`
-		http.cookieJar().set("HTTPBIN_URL/ws-echo-someheader", "someheader", "defaultjar")		
+		http.cookieJar().set("HTTPBIN_URL/ws-echo-someheader", "someheader", "defaultjar")
 
 		var ws = new WebSocket("WSBIN_URL/ws-echo-someheader", null)
 		ws.onopen = () => {
@@ -1372,7 +1372,7 @@ func TestSessionPingAdd(t *testing.T) {
 	ts := newTestState(t)
 
 	_, err := ts.runtime.RunOnEventLoop(sr(`
-			var ws = new WebSocket("WSBIN_URL/ws-echo")			
+			var ws = new WebSocket("WSBIN_URL/ws-echo")
 			ws.addEventListener("open", () => {
 				ws.ping()
 			})

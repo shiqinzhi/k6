@@ -10,9 +10,9 @@ import (
 	"github.com/grafana/sobek"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/js/compiler"
-	"go.k6.io/k6/js/common"
-	"go.k6.io/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/internal/js/compiler"
+	"github.com/shiqinzhi/k6/js/common"
+	"github.com/shiqinzhi/k6/js/modulestest"
 )
 
 const makeArrayScript = `

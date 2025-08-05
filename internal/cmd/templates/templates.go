@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"go.k6.io/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/lib/fsext"
 )
 
 //go:embed minimal.js

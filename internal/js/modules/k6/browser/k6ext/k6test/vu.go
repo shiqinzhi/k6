@@ -9,18 +9,18 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/env"
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
 
-	"go.k6.io/k6/internal/event"
-	"go.k6.io/k6/internal/js/eventloop"
-	k6testutils "go.k6.io/k6/internal/lib/testutils"
-	k6trace "go.k6.io/k6/internal/lib/trace"
-	k6common "go.k6.io/k6/js/common"
-	k6modulestest "go.k6.io/k6/js/modulestest"
-	"go.k6.io/k6/lib"
-	k6executor "go.k6.io/k6/lib/executor"
-	k6metrics "go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/event"
+	"github.com/shiqinzhi/k6/internal/js/eventloop"
+	k6testutils "github.com/shiqinzhi/k6/internal/lib/testutils"
+	k6trace "github.com/shiqinzhi/k6/internal/lib/trace"
+	k6common "github.com/shiqinzhi/k6/js/common"
+	k6modulestest "github.com/shiqinzhi/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/lib"
+	k6executor "github.com/shiqinzhi/k6/lib/executor"
+	k6metrics "github.com/shiqinzhi/k6/metrics"
 )
 
 // VU is a k6 VU instance.

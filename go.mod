@@ -1,4 +1,4 @@
-module go.k6.io/k6
+module github.com/shiqinzhi/k6
 
 go 1.23.0
 

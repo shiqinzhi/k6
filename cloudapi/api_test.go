@@ -11,16 +11,16 @@ import (
 	"testing"
 	"time"
 
-	"go.k6.io/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/lib/fsext"
 
-	"go.k6.io/k6/lib"
+	"github.com/shiqinzhi/k6/lib"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.k6.io/k6/internal/build"
-	"go.k6.io/k6/internal/lib/testutils"
-	"go.k6.io/k6/lib/types"
+	"github.com/shiqinzhi/k6/internal/build"
+	"github.com/shiqinzhi/k6/internal/lib/testutils"
+	"github.com/shiqinzhi/k6/lib/types"
 )
 
 func TestNewClient(t *testing.T) {

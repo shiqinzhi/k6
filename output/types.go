@@ -10,10 +10,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"go.k6.io/k6/internal/usage"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/usage"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 // Params contains all possible constructor parameters an output may need.

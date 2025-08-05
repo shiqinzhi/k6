@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/shiqinzhi/k6/internal/js/compiler"
+	"github.com/shiqinzhi/k6/js/modulestest"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/metrics"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/internal/js/compiler"
-	"go.k6.io/k6/js/modulestest"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/metrics"
 )
 
 const testFileName = "bonjour.txt"

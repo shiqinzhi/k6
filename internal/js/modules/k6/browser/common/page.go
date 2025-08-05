@@ -22,10 +22,10 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
-	"go.k6.io/k6/internal/js/modules/k6/browser/log"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
+	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/log"
 
-	k6modules "go.k6.io/k6/js/modules"
+	k6modules "github.com/shiqinzhi/k6/js/modules"
 )
 
 // BlankPage represents a blank page.

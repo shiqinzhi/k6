@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/shiqinzhi/k6/errext"
+	"github.com/shiqinzhi/k6/errext/exitcodes"
+	"github.com/shiqinzhi/k6/lib/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.k6.io/k6/errext"
-	"go.k6.io/k6/errext/exitcodes"
-	"go.k6.io/k6/lib/types"
 	"gopkg.in/guregu/null.v3"
 )
 

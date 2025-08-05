@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"go.k6.io/k6/lib/fsext"
-	"go.k6.io/k6/lib/types"
+	"github.com/shiqinzhi/k6/lib/fsext"
+	"github.com/shiqinzhi/k6/lib/types"
 
 	"github.com/stretchr/testify/require"
 	"gopkg.in/guregu/null.v3"
 
-	"go.k6.io/k6/internal/lib/testutils/httpmultibin"
-	"go.k6.io/k6/lib"
-	"go.k6.io/k6/metrics"
+	"github.com/shiqinzhi/k6/internal/lib/testutils/httpmultibin"
+	"github.com/shiqinzhi/k6/lib"
+	"github.com/shiqinzhi/k6/metrics"
 )
 
 func newDevNullSampleChannel() chan metrics.SampleContainer {
@@ -620,7 +620,7 @@ func TestStarImport(t *testing.T) {
 			import * as cjs from "./commonjs_file.js"; // commonjs
 			import * as k6 from "k6"; // "new" go module
 			// TODO: test with basic go module maybe
-	
+
 			if (cjs.something != 5) {
 				throw "cjs.something has wrong value" + cjs.something;
 			}

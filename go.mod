@@ -6,7 +6,7 @@ go 1.23.0
 toolchain go1.23.7
 
 //replace go.k6.io/k6 => go.k6.io/k6 v0.0.0
-//replace go.k6.io/k6 => ../k6
+replace go.k6.io/k6 => ../k6
 
 require (
 	buf.build/gen/go/prometheus/prometheus/protocolbuffers/go v1.36.5-20240802094132-5b212ab78fb7.1

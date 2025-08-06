@@ -4,7 +4,8 @@ go 1.23.0
 
 toolchain go1.23.7
 
-replace go.k6.io/k6 => github.com/shiqinzhi/k6 v0.0.0
+//replace go.k6.io/k6 => github.com/shiqinzhi/k6 v0.0.0
+replace go.k6.io/k6 => ../k6
 
 require (
 	buf.build/gen/go/prometheus/prometheus/protocolbuffers/go v1.36.5-20240802094132-5b212ab78fb7.1
@@ -69,7 +70,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 )
 
-require github.com/cenkalti/backoff/v5 v5.0.2 // indirect
+require (
+	github.com/cenkalti/backoff/v5 v5.0.2 // indirect
+	github.com/nxadm/tail v1.4.11 // indirect
+	go.k6.io/k6 v1.0.0 // indirect
+)
 
 require (
 	buf.build/gen/go/gogo/protobuf/protocolbuffers/go v1.36.5-20210810001428-4df00b267f94.1 // indirect
@@ -89,7 +94,6 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
-	github.com/nxadm/tail v1.4.11 // indirect
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.16.0

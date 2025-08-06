@@ -1,11 +1,12 @@
-module github.com/shiqinzhi/k6
+//module github.com/shiqinzhi/k6
+module go.k6.io/k6
 
 go 1.23.0
 
 toolchain go1.23.7
 
 //replace go.k6.io/k6 => github.com/shiqinzhi/k6 v0.0.0
-replace go.k6.io/k6 => ../k6
+//replace go.k6.io/k6 => ../k6
 
 require (
 	buf.build/gen/go/prometheus/prometheus/protocolbuffers/go v1.36.5-20240802094132-5b212ab78fb7.1
@@ -73,7 +74,6 @@ require (
 require (
 	github.com/cenkalti/backoff/v5 v5.0.2 // indirect
 	github.com/nxadm/tail v1.4.11 // indirect
-	go.k6.io/k6 v1.0.0 // indirect
 )
 
 require (

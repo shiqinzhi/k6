@@ -42,6 +42,10 @@ format:
 	find . -name '*.go' -exec gofmt -s -w {} +
 
 ## grpc-server-run: Runs the gRPC server example.
+#-mod=mod 是默认行为吗？	✅ 是的
+#可以省略不写吗？	✅ 可以，效果一样
+#TODO 什么时候写？	想显式指定行为、覆盖已有设置、或在 CI 中写清楚流程时，避免参数被环境变量等影响
+
 grpc-server-run:
 	go run -mod=mod examples/grpc_server/*.go
 

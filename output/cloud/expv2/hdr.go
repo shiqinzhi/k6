@@ -3,8 +3,8 @@ package expv2
 import (
 	"sort"
 
-	"github.com/shiqinzhi/k6/internal/ds/histogram"
-	"github.com/shiqinzhi/k6/internal/output/cloud/expv2/pbcloud"
+	"go.k6.io/k6/internal/ds/histogram"
+	"go.k6.io/k6/internal/output/cloud/expv2/pbcloud"
 )
 
 // histogramAsProto converts the histogram into the equivalent Protobuf version.

@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/shiqinzhi/k6/cloudapi"
-	"github.com/shiqinzhi/k6/internal/cmd"
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/lib/fsext"
+	"go.k6.io/k6/cloudapi"
+	"go.k6.io/k6/internal/cmd"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/lib/fsext"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

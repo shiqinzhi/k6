@@ -26,13 +26,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 
-	"github.com/shiqinzhi/k6/internal/js/compiler"
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/internal/loader"
-	"github.com/shiqinzhi/k6/internal/usage"
-	"github.com/shiqinzhi/k6/js/modules"
-	"github.com/shiqinzhi/k6/js/modulestest"
-	"github.com/shiqinzhi/k6/lib"
+	"go.k6.io/k6/internal/js/compiler"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/internal/loader"
+	"go.k6.io/k6/internal/usage"
+	"go.k6.io/k6/js/modules"
+	"go.k6.io/k6/js/modulestest"
+	"go.k6.io/k6/lib"
 )
 
 const (

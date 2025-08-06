@@ -9,8 +9,8 @@ import (
 	"github.com/grafana/sobek"
 	"github.com/sirupsen/logrus"
 
-	"github.com/shiqinzhi/k6/internal/loader"
-	"github.com/shiqinzhi/k6/lib/fsext"
+	"go.k6.io/k6/internal/loader"
+	"go.k6.io/k6/lib/fsext"
 )
 
 const cantBeUsedOutsideInitContextMsg = `the "%s" function is only available in the init stage ` +

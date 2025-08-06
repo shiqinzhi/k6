@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common/js"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext/k6test"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/log"
+	"go.k6.io/k6/internal/js/modules/k6/browser/common/js"
+	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
+	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext/k6test"
+	"go.k6.io/k6/internal/js/modules/k6/browser/log"
 )
 
 func TestNewBrowserContext(t *testing.T) {

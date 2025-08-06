@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/shiqinzhi/k6/errext/exitcodes"
-	"github.com/shiqinzhi/k6/internal/cmd/tests"
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/stretchr/testify/require"
+	"go.k6.io/k6/errext/exitcodes"
+	"go.k6.io/k6/internal/cmd/tests"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/lib/fsext"
 )
 
 func TestArchiveThresholds(t *testing.T) {

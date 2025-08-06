@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/shiqinzhi/k6/cmd/state"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/lib/types"
+	"go.k6.io/k6/cmd/state"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/lib/types"
 )
 
 // TODO: split apart like `k6 run` and `k6 archive`

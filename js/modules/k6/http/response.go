@@ -11,9 +11,9 @@ import (
 	"github.com/grafana/sobek"
 	"github.com/tidwall/gjson"
 
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/js/modules/k6/html"
-	"github.com/shiqinzhi/k6/lib/netext/httpext"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/js/modules/k6/html"
+	"go.k6.io/k6/lib/netext/httpext"
 )
 
 // Response is a representation of an HTTP response to be returned to the Sobek VM

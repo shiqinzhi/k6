@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"path/filepath"
 
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/lib/fsext"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/lib/fsext"
 )
 
 // InitEnvironment contains properties that can be accessed by Go code executed

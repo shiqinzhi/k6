@@ -9,11 +9,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/shiqinzhi/k6/errext"
-	"github.com/shiqinzhi/k6/internal/execution"
-	"github.com/shiqinzhi/k6/internal/ui/pb"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/lib/types"
+	"go.k6.io/k6/errext"
+	"go.k6.io/k6/internal/execution"
+	"go.k6.io/k6/internal/ui/pb"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/lib/types"
 )
 
 const (

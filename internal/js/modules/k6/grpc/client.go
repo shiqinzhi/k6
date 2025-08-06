@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/shiqinzhi/k6/internal/lib/netext/grpcext"
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/js/modules"
+	"go.k6.io/k6/internal/lib/netext/grpcext"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/js/modules"
 
 	"github.com/grafana/sobek"
 	"github.com/jhump/protoreflect/desc"            //nolint:staticcheck // FIXME: #4035

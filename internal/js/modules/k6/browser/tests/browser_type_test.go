@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/browser"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/chromium"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext/k6test"
+	"go.k6.io/k6/internal/js/modules/k6/browser/browser"
+	"go.k6.io/k6/internal/js/modules/k6/browser/chromium"
+	"go.k6.io/k6/internal/js/modules/k6/browser/env"
+	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext/k6test"
 )
 
 func TestBrowserTypeConnect(t *testing.T) {

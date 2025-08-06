@@ -1,11 +1,11 @@
-//module github.com/shiqinzhi/k6
+//module go.k6.io/k6
 module go.k6.io/k6
 
 go 1.23.0
 
 toolchain go1.23.7
 
-//replace go.k6.io/k6 => github.com/shiqinzhi/k6 v0.0.0
+//replace go.k6.io/k6 => go.k6.io/k6 v0.0.0
 //replace go.k6.io/k6 => ../k6
 
 require (

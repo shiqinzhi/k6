@@ -4,12 +4,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/shiqinzhi/k6/internal/execution/local"
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/internal/lib/testutils/minirunner"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/metrics"
 	"github.com/stretchr/testify/require"
+	"go.k6.io/k6/internal/execution/local"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/internal/lib/testutils/minirunner"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/metrics"
 )
 
 func getBogusTestRunState(tb testing.TB) *lib.TestRunState {

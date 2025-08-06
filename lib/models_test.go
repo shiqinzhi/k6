@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/guregu/null.v3"
 
-	"github.com/shiqinzhi/k6/lib/types"
+	"go.k6.io/k6/lib/types"
 )
 
 func TestStageJSON(t *testing.T) {

@@ -11,17 +11,17 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/shiqinzhi/k6/lib"
+	"go.k6.io/k6/lib"
 
-	"github.com/shiqinzhi/k6/cmd/state"
-	"github.com/shiqinzhi/k6/internal/event"
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/internal/ui/console"
-	"github.com/shiqinzhi/k6/internal/usage"
-	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.k6.io/k6/cmd/state"
+	"go.k6.io/k6/internal/event"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/internal/ui/console"
+	"go.k6.io/k6/internal/usage"
+	"go.k6.io/k6/lib/fsext"
 )
 
 // GlobalTestState is a wrapper around GlobalState for use in tests.

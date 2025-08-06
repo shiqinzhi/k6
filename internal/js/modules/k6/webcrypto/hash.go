@@ -6,7 +6,7 @@ import (
 	"reflect"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/js/common"
+	"go.k6.io/k6/js/common"
 )
 
 // getHashFn returns the hash function associated with the given name.

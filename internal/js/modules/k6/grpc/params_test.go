@@ -6,13 +6,13 @@ import (
 	"time"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/js/modulestest"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/metrics"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/js/modulestest"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/metrics"
 	"google.golang.org/grpc/metadata"
 	"gopkg.in/guregu/null.v3"
 )

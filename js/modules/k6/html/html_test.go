@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/js/modulestest"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/js/modulestest"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/metrics"
 )
 
 const testHTML = `

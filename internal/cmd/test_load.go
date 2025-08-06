@@ -10,18 +10,18 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/shiqinzhi/k6/cmd/state"
-	"github.com/shiqinzhi/k6/errext"
-	"github.com/shiqinzhi/k6/errext/exitcodes"
-	"github.com/shiqinzhi/k6/internal/js"
-	"github.com/shiqinzhi/k6/internal/loader"
-	"github.com/shiqinzhi/k6/js/modules"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/lib/fsext"
-	"github.com/shiqinzhi/k6/metrics"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	"go.k6.io/k6/cmd/state"
+	"go.k6.io/k6/errext"
+	"go.k6.io/k6/errext/exitcodes"
+	"go.k6.io/k6/internal/js"
+	"go.k6.io/k6/internal/loader"
+	"go.k6.io/k6/js/modules"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/lib/fsext"
+	"go.k6.io/k6/metrics"
 )
 
 const (

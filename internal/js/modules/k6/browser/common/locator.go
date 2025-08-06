@@ -8,7 +8,7 @@ import (
 
 	"github.com/grafana/sobek"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/log"
+	"go.k6.io/k6/internal/js/modules/k6/browser/log"
 )
 
 // Strict mode:

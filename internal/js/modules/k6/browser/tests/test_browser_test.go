@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/env"
+	"go.k6.io/k6/internal/js/modules/k6/browser/env"
 )
 
 func TestTestBrowserAwaitWithTimeoutShortCircuit(t *testing.T) {

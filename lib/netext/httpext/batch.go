@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/shiqinzhi/k6/lib"
+	"go.k6.io/k6/lib"
 )
 
 // BatchParsedHTTPRequest extends the normal parsed HTTP request with a pointer

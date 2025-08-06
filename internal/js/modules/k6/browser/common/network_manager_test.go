@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext/k6test"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/log"
+	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
+	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext/k6test"
+	"go.k6.io/k6/internal/js/modules/k6/browser/log"
 
-	k6mockresolver "github.com/shiqinzhi/k6/internal/lib/testutils/mockresolver"
-	k6lib "github.com/shiqinzhi/k6/lib"
-	k6types "github.com/shiqinzhi/k6/lib/types"
-	k6metrics "github.com/shiqinzhi/k6/metrics"
+	k6mockresolver "go.k6.io/k6/internal/lib/testutils/mockresolver"
+	k6lib "go.k6.io/k6/lib"
+	k6types "go.k6.io/k6/lib/types"
+	k6metrics "go.k6.io/k6/metrics"
 
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/cdproto/fetch"

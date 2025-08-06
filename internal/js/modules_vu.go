@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/internal/event"
-	"github.com/shiqinzhi/k6/internal/js/eventloop"
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/lib"
+	"go.k6.io/k6/internal/event"
+	"go.k6.io/k6/internal/js/eventloop"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/lib"
 )
 
 type events struct {

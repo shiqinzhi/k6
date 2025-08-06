@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/metrics"
 )
 
 // ApplyCustomUserTags modifies the given metrics.TagsAndMeta object with the

@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/internal/lib/testutils/minirunner"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/internal/lib/testutils/minirunner"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/metrics"
 )
 
 func mockNextIterations() (uint64, uint64) {

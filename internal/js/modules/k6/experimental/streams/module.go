@@ -6,8 +6,8 @@ import (
 	"io"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/js/modules"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/js/modules"
 )
 
 type (

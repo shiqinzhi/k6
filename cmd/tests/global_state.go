@@ -4,7 +4,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/shiqinzhi/k6/internal/cmd/tests"
+	"go.k6.io/k6/internal/cmd/tests"
 )
 
 // GlobalTestState is a wrapper around GlobalState for use in tests.

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/shiqinzhi/k6/internal/lib/testutils/grpcservice"
+	"go.k6.io/k6/internal/lib/testutils/grpcservice"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

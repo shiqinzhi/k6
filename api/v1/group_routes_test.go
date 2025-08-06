@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/internal/execution"
-	"github.com/shiqinzhi/k6/internal/execution/local"
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/internal/lib/testutils/minirunner"
-	"github.com/shiqinzhi/k6/internal/metrics/engine"
-	"github.com/shiqinzhi/k6/internal/usage"
-	"github.com/shiqinzhi/k6/lib"
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/internal/execution"
+	"go.k6.io/k6/internal/execution/local"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/internal/lib/testutils/minirunner"
+	"go.k6.io/k6/internal/metrics/engine"
+	"go.k6.io/k6/internal/usage"
+	"go.k6.io/k6/lib"
+	"go.k6.io/k6/metrics"
 )
 
 func getTestPreInitState(tb testing.TB) *lib.TestPreInitState {

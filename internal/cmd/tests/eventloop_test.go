@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/shiqinzhi/k6/internal/cmd"
 	"github.com/stretchr/testify/require"
+	"go.k6.io/k6/internal/cmd"
 )
 
 func TestEventLoop(t *testing.T) {

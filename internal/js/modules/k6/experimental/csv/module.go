@@ -9,18 +9,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/data"
+	"go.k6.io/k6/internal/js/modules/k6/data"
 
 	"github.com/grafana/sobek"
 
 	"gopkg.in/guregu/null.v3"
 
-	"github.com/shiqinzhi/k6/js/promises"
+	"go.k6.io/k6/js/promises"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/experimental/fs"
+	"go.k6.io/k6/internal/js/modules/k6/experimental/fs"
 
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/js/modules"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/js/modules"
 )
 
 type (

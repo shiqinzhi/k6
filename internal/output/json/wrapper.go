@@ -3,7 +3,7 @@ package json
 import (
 	"time"
 
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/metrics"
 )
 
 //go:generate easyjson -pkg -no_std_marshalers -gen_build_flags -mod=mod .

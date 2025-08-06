@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/js/modulestest"
+	"go.k6.io/k6/js/modulestest"
 )
 
 func newRuntime(t testing.TB) *modulestest.Runtime {

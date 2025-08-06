@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shiqinzhi/k6/internal/ui/pb"
+	"go.k6.io/k6/internal/ui/pb"
 )
 
 // Return progressbars with different content lengths, to test for

@@ -1,13 +1,13 @@
-module github.com/shiqinzhi/k6/examples/grpc_server
+module go.k6.io/k6/examples/grpc_server
 
 go 1.23.0
 
 toolchain go1.23.7
 
-replace github.com/shiqinzhi/k6 => ../../
+replace go.k6.io/k6 => ../../
 
 require (
-	github.com/shiqinzhi/k6 v0.0.0-00010101000000-000000000000
+	go.k6.io/k6 v0.0.0-00010101000000-000000000000
 	google.golang.org/grpc v1.74.2
 )
 

@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/metrics"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"go.k6.io/k6/metrics"
 )
 
 func assertResponse(t *testing.T, cb codeBlock, err error, val sobek.Value, ts testState) {

@@ -3,8 +3,8 @@ package k6ext
 import (
 	"context"
 
-	k6modules "github.com/shiqinzhi/k6/js/modules"
-	k6lib "github.com/shiqinzhi/k6/lib"
+	k6modules "go.k6.io/k6/js/modules"
+	k6lib "go.k6.io/k6/lib"
 
 	"github.com/grafana/sobek"
 )

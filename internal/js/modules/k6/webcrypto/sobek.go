@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/js/common"
+	"go.k6.io/k6/js/common"
 )
 
 // exportArrayBuffer interprets the given value as an ArrayBuffer, TypedArray or DataView

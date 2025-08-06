@@ -4,8 +4,8 @@ package tests
 import (
 	"testing"
 
-	"github.com/shiqinzhi/k6/internal/cmd"
 	"github.com/stretchr/testify/assert"
+	"go.k6.io/k6/internal/cmd"
 )
 
 func TestMain(m *testing.M) {

@@ -3,7 +3,7 @@ package errext
 import (
 	"errors"
 
-	"github.com/shiqinzhi/k6/errext/exitcodes"
+	"go.k6.io/k6/errext/exitcodes"
 )
 
 // InterruptError is an error that halts engine execution

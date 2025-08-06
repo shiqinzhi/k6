@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/shiqinzhi/k6/cmd/state"
+	"go.k6.io/k6/cmd/state"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

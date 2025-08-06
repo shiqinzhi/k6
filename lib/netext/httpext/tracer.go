@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/metrics"
 	"gopkg.in/guregu/null.v3"
 )
 

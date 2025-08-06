@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/shiqinzhi/k6/internal/cloudapi/insights/proto/v1/ingester"
-	"github.com/shiqinzhi/k6/internal/cloudapi/insights/proto/v1/k6"
+	"go.k6.io/k6/internal/cloudapi/insights/proto/v1/ingester"
+	"go.k6.io/k6/internal/cloudapi/insights/proto/v1/k6"
 )
 
 func newBatchCreateRequestMetadatasRequest(

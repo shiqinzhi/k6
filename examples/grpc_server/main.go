@@ -35,7 +35,7 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc/testdata"
 
-	"github.com/shiqinzhi/k6/internal/lib/testutils/grpcservice"
+	"go.k6.io/k6/internal/lib/testutils/grpcservice"
 )
 
 var (

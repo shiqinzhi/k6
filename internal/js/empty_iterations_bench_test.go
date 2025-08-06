@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/lib"
+	"go.k6.io/k6/lib"
 )
 
 func BenchmarkEmptyIteration(b *testing.B) {

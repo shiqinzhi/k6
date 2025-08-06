@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/guregu/null.v3"
 
-	"github.com/shiqinzhi/k6/cmd/state"
-	"github.com/shiqinzhi/k6/internal/lib/summary"
-	"github.com/shiqinzhi/k6/lib"
+	"go.k6.io/k6/cmd/state"
+	"go.k6.io/k6/internal/lib/summary"
+	"go.k6.io/k6/lib"
 )
 
 // TODO: move this whole file out of the cmd package? maybe when fixing

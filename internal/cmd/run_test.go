@@ -12,16 +12,16 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/shiqinzhi/k6/errext"
+	"go.k6.io/k6/errext"
 
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/errext/exitcodes"
-	"github.com/shiqinzhi/k6/internal/cmd/tests"
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
-	"github.com/shiqinzhi/k6/lib/fsext"
+	"go.k6.io/k6/errext/exitcodes"
+	"go.k6.io/k6/internal/cmd/tests"
+	"go.k6.io/k6/internal/lib/testutils"
+	"go.k6.io/k6/lib/fsext"
 )
 
 type mockWriter struct {

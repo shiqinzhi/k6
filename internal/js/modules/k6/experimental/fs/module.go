@@ -11,13 +11,13 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/shiqinzhi/k6/lib/fsext"
+	"go.k6.io/k6/lib/fsext"
 
 	"github.com/grafana/sobek"
 
-	"github.com/shiqinzhi/k6/js/common"
-	"github.com/shiqinzhi/k6/js/modules"
-	"github.com/shiqinzhi/k6/js/promises"
+	"go.k6.io/k6/js/common"
+	"go.k6.io/k6/js/modules"
+	"go.k6.io/k6/js/promises"
 )
 
 type (

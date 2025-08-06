@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/grafana/sobek"
-	"github.com/shiqinzhi/k6/js/promises"
+	"go.k6.io/k6/js/promises"
 )
 
 // PromisifiedFunc is a type of the function to run as a promise.

@@ -11,10 +11,10 @@ import (
 	"golang.org/x/term"
 	"gopkg.in/guregu/null.v3"
 
-	"github.com/shiqinzhi/k6/cloudapi"
-	"github.com/shiqinzhi/k6/cmd/state"
-	"github.com/shiqinzhi/k6/internal/build"
-	"github.com/shiqinzhi/k6/internal/ui"
+	"go.k6.io/k6/cloudapi"
+	"go.k6.io/k6/cmd/state"
+	"go.k6.io/k6/internal/build"
+	"go.k6.io/k6/internal/ui"
 )
 
 const cloudLoginCommandName = "login"

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/shiqinzhi/k6/internal/loader"
-	"github.com/shiqinzhi/k6/lib/fsext"
+	"go.k6.io/k6/internal/loader"
+	"go.k6.io/k6/lib/fsext"
 )
 
 var (

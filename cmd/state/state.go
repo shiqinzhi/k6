@@ -10,17 +10,17 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/shiqinzhi/k6/lib"
+	"go.k6.io/k6/lib"
 
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/sirupsen/logrus"
 
-	"github.com/shiqinzhi/k6/internal/event"
-	"github.com/shiqinzhi/k6/internal/ui/console"
-	"github.com/shiqinzhi/k6/internal/usage"
-	"github.com/shiqinzhi/k6/lib/fsext"
-	"github.com/shiqinzhi/k6/secretsource"
+	"go.k6.io/k6/internal/event"
+	"go.k6.io/k6/internal/ui/console"
+	"go.k6.io/k6/internal/usage"
+	"go.k6.io/k6/lib/fsext"
+	"go.k6.io/k6/secretsource"
 )
 
 const (

@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/shiqinzhi/k6/internal/lib/testutils"
+	"go.k6.io/k6/internal/lib/testutils"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/shiqinzhi/k6/lib/fsext"
+	"go.k6.io/k6/lib/fsext"
 )
 
 func dumpMemMapFsToBuf(fileSystem fsext.Fs) (*bytes.Buffer, error) {

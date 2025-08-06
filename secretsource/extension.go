@@ -1,10 +1,10 @@
 package secretsource
 
 import (
-	"github.com/shiqinzhi/k6/ext"
-	"github.com/shiqinzhi/k6/internal/usage"
-	"github.com/shiqinzhi/k6/lib/fsext"
 	"github.com/sirupsen/logrus"
+	"go.k6.io/k6/ext"
+	"go.k6.io/k6/internal/usage"
+	"go.k6.io/k6/lib/fsext"
 )
 
 // Constructor returns an instance of a secret source extension module.

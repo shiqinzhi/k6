@@ -1,6 +1,6 @@
 package output
 
-import "github.com/shiqinzhi/k6/ext"
+import "go.k6.io/k6/ext"
 
 // Constructor returns an instance of an output extension module.
 type Constructor func(Params) (Output, error)

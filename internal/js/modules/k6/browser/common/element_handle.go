@@ -14,10 +14,10 @@ import (
 	"github.com/grafana/sobek"
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common/js"
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/k6ext"
+	"go.k6.io/k6/internal/js/modules/k6/browser/common/js"
+	"go.k6.io/k6/internal/js/modules/k6/browser/k6ext"
 
-	k6common "github.com/shiqinzhi/k6/js/common"
+	k6common "go.k6.io/k6/js/common"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/metrics"
 )
 
 // A Mode specifies the mode of the Summary,

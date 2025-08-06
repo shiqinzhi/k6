@@ -11,7 +11,7 @@ import (
 	"github.com/mstoykov/envconfig"
 	"gopkg.in/guregu/null.v3"
 
-	"github.com/shiqinzhi/k6/lib/types"
+	"go.k6.io/k6/lib/types"
 )
 
 // Config represents a k6's influxdb output configuration.

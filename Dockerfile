@@ -1,5 +1,5 @@
 FROM --platform=$BUILDPLATFORM golang:1.24-alpine3.22 as builder
-WORKDIR $GOPATH/src/github.com/shiqinzhi/k6
+WORKDIR $GOPATH/src/go.k6.io/k6
 COPY . .
 ARG TARGETOS TARGETARCH
 RUN apk --no-cache add git=~2

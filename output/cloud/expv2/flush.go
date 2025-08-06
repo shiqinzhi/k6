@@ -5,8 +5,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/shiqinzhi/k6/internal/output/cloud/expv2/pbcloud"
-	"github.com/shiqinzhi/k6/metrics"
+	"go.k6.io/k6/internal/output/cloud/expv2/pbcloud"
+	"go.k6.io/k6/metrics"
 )
 
 type pusher interface {

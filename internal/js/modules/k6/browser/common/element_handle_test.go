@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/shiqinzhi/k6/internal/js/modules/k6/browser/common/js"
+	"go.k6.io/k6/internal/js/modules/k6/browser/common/js"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

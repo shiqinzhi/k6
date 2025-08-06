@@ -7,10 +7,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/shiqinzhi/k6/cmd/state"
-	"github.com/shiqinzhi/k6/ext"
-	"github.com/shiqinzhi/k6/internal/build"
 	"github.com/spf13/cobra"
+	"go.k6.io/k6/cmd/state"
+	"go.k6.io/k6/ext"
+	"go.k6.io/k6/internal/build"
 )
 
 const (

@@ -32,6 +32,11 @@ build:
 	go build
 
 ## format: Applies Go formatting to code.
+#gofmt 参数说明
+#-s
+#执行简化代码操作，移除不必要的代码，比如多余的括号。
+#-w
+#直接修改文件，将格式化后的内容写回到源文件
 format:
 	find . -name '*.go' -exec gofmt -s -w {} +
 

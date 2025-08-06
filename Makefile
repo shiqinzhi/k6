@@ -44,6 +44,11 @@ format:
 ## grpc-server-run: Runs the gRPC server example.
 #-mod=mod 是默认行为吗？	✅ 是的
 #可以省略不写吗？	✅ 可以，效果一样
+#还有其它值：
+#模式	含义
+#mod	默认行为。根据 go.mod 中的版本进行模块解析，必要时更新 go.sum。
+#readonly	只读取 go.mod 和 go.sum，不允许写入或修改，否则报错。
+#vendor	忽略 go.mod 解析，使用 vendor/ 目录中的代码
 #TODO 什么时候写？	想显式指定行为、覆盖已有设置、或在 CI 中写清楚流程时，避免参数被环境变量等影响
 
 grpc-server-run:

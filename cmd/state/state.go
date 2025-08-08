@@ -2,6 +2,7 @@ package state
 
 import (
 	"context"
+	"fmt"
 	"io"
 	"os"
 	"os/signal"
@@ -85,6 +86,7 @@ type GlobalState struct {
 //nolint:forbidigo
 func NewGlobalState(ctx context.Context) *GlobalState {
 	isDumbTerm := os.Getenv("TERM") == "dumb"
+	fmt.Println("======%s", isatty.IsTerminal(os.Stdout.Fd()))
 	stdoutTTY := !isDumbTerm && (isatty.IsTerminal(os.Stdout.Fd()) || isatty.IsCygwinTerminal(os.Stdout.Fd()))
 	stderrTTY := !isDumbTerm && (isatty.IsTerminal(os.Stderr.Fd()) || isatty.IsCygwinTerminal(os.Stderr.Fd()))
 	outMutex := &sync.Mutex{}

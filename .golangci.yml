@@ -1,92 +1,96 @@
 # v2.1.6
 # Please don't remove the first line. It uses in CI to determine the golangci version
-#  golangci-lint 配置文件的版本。
-version: "2"
+# 该文件为 golangci-lint 配置文件，CI 会依赖第一行来确定 golangci-lint 的版本号，请勿删除。
+
+version: "2" # 配置文件版本号
+
 linters:
-  default: none #禁用所有默认检查器，只启用显式列出的
+  default: none # 禁用所有默认开启的 Linter，只启用显式列出的 Linter
   enable:
-    - asasalint
-    - asciicheck #检查代码中是否有非 ASCII 字符
-    - bidichk
-    - bodyclose
-    - canonicalheader
-    - contextcheck
-    - copyloopvar
-    - cyclop
-    - dogsled
-    - dupl
-    - durationcheck
-    - errcheck #检测错误返回值是否被正确处理。
-    - errchkjson
-    - errname
-    - errorlint
-    - exhaustive
-    - fatcontext
-    - forbidigo
-    - forcetypeassert
-    - funlen
-    - gocheckcompilerdirectives
-    - gochecknoglobals
-    - gocognit
-    - goconst
-    - gocritic
-    - gomoddirectives
-    - goprintffuncname
-    - gosec
-    - govet
-    - importas
-    - ineffassign
-    - interfacebloat
-    - lll
-    - makezero
-    - misspell
-    - nakedret
-    - nestif
-    - nilerr
-    - nilnil
-    - noctx
-    - nolintlint
-    - nosprintfhostport
-    - paralleltest
-    - prealloc
-    - predeclared
-    - promlinter
-    - reassign
-    - revive
-    - rowserrcheck
-    - sqlclosecheck
-    - staticcheck
-    - tparallel
-    - unconvert
-    - unparam
-    - unused
-    - usestdlibvars
-    - usetesting
-    - wastedassign
-    - whitespace
+    - asasalint                # 检查使用 'asa' 包（assertion/asn1）的相关问题
+    - asciicheck               # 检查代码中是否有非 ASCII 字符（避免不可见或乱码字符）
+    - bidichk                  # 检测包含 Unicode 双向控制字符的代码（防止隐式混淆漏洞）
+    - bodyclose                # 检查 HTTP 响应体在使用后是否被正确关闭
+    - canonicalheader          # 检查 HTTP 头部大小写是否符合规范
+    - contextcheck             # 检查 context.Context 是否正确传递，防止遗漏或误用
+    - copyloopvar               # 检查循环变量在闭包中被错误引用的情况
+    - cyclop                   # 检查函数圈复杂度，防止代码过于复杂
+    - dogsled                  # 检查多变量赋值时有变量被丢弃（_）的情况
+    - dupl                     # 检查重复代码
+    - durationcheck            # 检查 time.Duration 使用是否正确
+    - errcheck                 # 检查错误返回值是否被正确处理
+    - errchkjson               # 检查 JSON 编码/解码的错误是否被忽略
+    - errname                  # 检查错误类型和变量命名是否符合规范
+    - errorlint                # 检查错误处理是否符合 Go 1.13+ 的错误包规范
+    - exhaustive               # 检查 switch 是否涵盖所有枚举值
+    - fatcontext               # 检查 context 变量是否被错误地存储为结构体字段（可能引起泄露）
+    - forbidigo                # 检查是否使用了被禁止的函数或包
+    - forcetypeassert          # 检查类型断言是否安全
+    - funlen                   # 检查函数长度（行数/语句数）是否超标
+    - gocheckcompilerdirectives # 检查编译指令是否符合规范
+    - gochecknoglobals         # 检查是否定义了全局变量（建议减少全局变量使用）
+    - gocognit                 # 检查函数的认知复杂度
+    - goconst                  # 检查重复出现的字符串/数字常量是否应提取为常量
+    - gocritic                 # 检查多种常见代码问题（综合性 linter）
+    - gomoddirectives          # 检查 go.mod 中的 replace/exclude 等指令是否合理
+    - goprintffuncname         # 检查 Printf 类函数的命名是否正确
+    - gosec                    # 检查潜在的安全问题
+    - govet                    # 官方 vet 工具（检测各种常见错误）
+    - importas                 # 检查 import 别名是否符合规范
+    - ineffassign              # 检查变量赋值后是否未使用
+    - interfacebloat           # 检查接口是否过于臃肿
+    - lll                      # 检查代码行是否超过设定长度
+    - makezero                 # 检查 make 创建的 slice/map 是否多余地初始化为零值
+    - misspell                 # 检查单词拼写错误
+    - nakedret                 # 检查函数是否使用裸 return（不推荐）
+    - nestif                   # 检查 if 嵌套层级过深
+    - nilerr                   # 检查返回 nil error 时是否还有其他返回值
+    - nilnil                   # 检查同时返回 nil 值和 nil error 的情况
+    - noctx                    # 检查 HTTP 请求等是否缺少 context
+    - nolintlint               # 检查 //nolint 注释是否有效、合理
+    - nosprintfhostport        # 检查是否使用 fmt.Sprintf 构造 host:port（建议用 net.JoinHostPort）
+    - paralleltest             # 检查测试函数是否可并行执行
+    - prealloc                 # 检查是否可以为 slice 提前分配容量
+    - predeclared              # 检查是否重定义了 Go 预声明标识符
+    - promlinter               # 检查 Prometheus metrics 使用是否符合规范
+    - reassign                 # 检查是否对已声明的变量重复赋值
+    - revive                   # 检查代码风格（可替代 golint）
+    - rowserrcheck             # 检查 SQL rows 使用是否正确处理错误
+    - sqlclosecheck            # 检查 SQL 查询后 rows 是否被关闭
+    - staticcheck              # 静态代码分析（比 govet 更严格）
+    - tparallel                # 检查测试代码中 t.Parallel() 的正确使用
+    - unconvert                # 检查是否有多余的类型转换
+    - unparam                  # 检查未使用的函数参数
+    - unused                   # 检查未使用的变量、常量、函数等
+    - usestdlibvars            # 检查是否使用标准库中的常量和变量
+    - usetesting               # 检查是否正确使用 testing 包
+    - wastedassign             # 检查变量赋值后立即被覆盖的情况
+    - whitespace               # 检查空格、缩进等格式问题
+
   settings:
     cyclop:
-      max-complexity: 25
+      max-complexity: 25 # 圈复杂度最大值
     dupl:
-      threshold: 150
+      threshold: 150 # 重复代码的最小 token 数
     exhaustive:
-      default-signifies-exhaustive: true
+      default-signifies-exhaustive: true # 默认 switch 要覆盖所有情况
     forbidigo:
       forbid:
-        - pattern: ^(fmt\\.Print(|f|ln)|print|println)$
+        - pattern: ^(fmt\\.Print(|f|ln)|print|println)$ # 禁止使用 fmt.Print* 及 print/println
         - pattern: ^os\.(.*)$(# Using anything except Signal and SyscallError from the os package is forbidden )?
         - pattern: ^syscall\.[^A-Z_]+$(# Using anything except constants from the syscall package is forbidden )?
-        - pattern: ^logrus\.Logger$
+        - pattern: ^logrus\.Logger$ # 禁止直接使用 logrus.Logger
     funlen:
-      lines: 80
-      statements: 60
+      lines: 80       # 函数最大行数
+      statements: 60  # 函数最大语句数
     goconst:
-      min-len: 10
-      min-occurrences: 4
+      min-len: 10      # 常量最小长度
+      min-occurrences: 4 # 出现次数达到 4 次才建议提取常量
     usetesting:
-      os-setenv: true
+      os-setenv: true  # 检查测试中是否使用 os.Setenv
+
   exclusions:
-    generated: lax
+    generated: lax # 对自动生成的文件宽松处理
     rules:
       - linters:
           - canonicalheader
@@ -96,7 +100,7 @@ linters:
           - funlen
           - gocognit
           - lll
-        path: _(test|gen)\.go
+        path: _(test|gen)\.go # 测试或生成文件不适用这些规则
       - linters:
           - contextcheck
           - revive
@@ -104,7 +108,7 @@ linters:
       - linters:
           - revive
         path: js\/modules\/k6\/html\/.*\.go
-        text: 'exported: exported '
+        text: 'exported: exported ' # 忽略指定文本的 revive 提示
       - linters:
           - paralleltest
           - tparallel
@@ -117,20 +121,22 @@ linters:
           - forbidigo
         text: use of `os\.(SyscallError|Signal|Interrupt)` forbidden
     paths:
-      - third_party$
-      - builtin$
-      - examples$
+      - third_party$ # 排除第三方目录
+      - builtin$     # 排除内置目录
+      - examples$    # 排除示例代码
+
 issues:
-  max-issues-per-linter: 0
-  max-same-issues: 0
+  max-issues-per-linter: 0 # 不限制单个 Linter 的最大问题数
+  max-same-issues: 0       # 不限制相同问题的最大数量
+
 formatters:
   enable:
-    - gofmt
-    - gofumpt #gofmt 的严格版本 它是社区维护的一个基于官方 gofmt 的更严格版本，主要由 mvdan 维护。
-    - goimports #自动整理 import 顺序和未使用的包。
+    - gofmt    # Go 官方格式化工具
+    - gofumpt  # gofmt 的严格版本（由 mvdan 维护）
+    - goimports # 自动整理 import 顺序并删除未使用的包
   exclusions:
     generated: lax
     paths:
-      - third_party$
-      - builtin$
-      - examples$
+      - third_party$ # 排除第三方目录
+      - builtin$     # 排除内置目录
+      - examples$    # 排除示例代码

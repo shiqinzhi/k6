@@ -1,11 +1,12 @@
 # v2.1.6
 # Please don't remove the first line. It uses in CI to determine the golangci version
+#  golangci-lint 配置文件的版本。
 version: "2"
 linters:
-  default: none
+  default: none #禁用所有默认检查器，只启用显式列出的
   enable:
     - asasalint
-    - asciicheck
+    - asciicheck #检查代码中是否有非 ASCII 字符
     - bidichk
     - bodyclose
     - canonicalheader
@@ -15,7 +16,7 @@ linters:
     - dogsled
     - dupl
     - durationcheck
-    - errcheck
+    - errcheck #检测错误返回值是否被正确处理。
     - errchkjson
     - errname
     - errorlint
@@ -125,8 +126,8 @@ issues:
 formatters:
   enable:
     - gofmt
-    - gofumpt
-    - goimports
+    - gofumpt #gofmt 的严格版本 它是社区维护的一个基于官方 gofmt 的更严格版本，主要由 mvdan 维护。
+    - goimports #自动整理 import 顺序和未使用的包。
   exclusions:
     generated: lax
     paths:

@@ -85,6 +85,7 @@ type GlobalState struct {
 //
 //nolint:forbidigo
 func NewGlobalState(ctx context.Context) *GlobalState {
+	//TODO 比如在某些 CI/CD 环境、Docker 容器里，或者某些自动化工具中，可能把 TERM 设成 dumb，表示没有完整的终端支持
 	isDumbTerm := os.Getenv("TERM") == "dumb"
 	fmt.Printf("======是tty么?:%v", isatty.IsTerminal(os.Stdout.Fd()))
 	stdoutTTY := !isDumbTerm && (isatty.IsTerminal(os.Stdout.Fd()) || isatty.IsCygwinTerminal(os.Stdout.Fd()))

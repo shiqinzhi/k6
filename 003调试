@@ -1,0 +1,6 @@
+1
+k6 run --vus 10 --duration 30s test.js
+--vus = 虚拟用户数量
+--duration = 持续时间
+调试可用Program arguments:
+      run --vus 2 --duration 10s ./examples/00.js
